@@ -215,4 +215,79 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-  
+
+  @media screen and (max-width: 980px) {
+    #maincontainer {
+        padding-top: 125px;
+    }
+    .container {
+     max-width: 704px;
+     margin: 0;
+    }
+    body {
+        line-height: 19px;
+        font-size: 12px;
+    }
+    h1 {
+        line-height: 40px;
+    }
+    .auth-image {
+        width: 241px;
+    }
+    .main-section {
+        max-width: 654px;
+        margin: 0 25px 150px;
+        padding: 27px;
+  }
+}
+
+  @media screen and (max-width: 768px) {
+    #maincontainer {
+        padding-top: 125px;
+    }
+    .container {
+     max-width: 704px;
+     margin: 0;
+    }
+    body {
+        line-height: 19px;
+        font-size: 12px;
+    }
+    h1 {
+        line-height: 40px;
+    }
+    .auth-image {
+        width: 241px;
+    }
+    .main-section {
+        max-width: 654px;
+        margin: 0 25px 150px;
+        padding: 27px;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    #logo {
+        width: 100%;
+    }
+    nav {
+        float: none;
+        margin-top: 0;
+        text-align: center;
+        padding: 20px;
+    }
+    nav a {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .main-section {
+        margin: 60px 15px 150px;
+        max-width: 591px;
+    }
+    .auth-image {
+        width: 100%;
+    }
+    p {
+        font-size: 15px;
+    }
+  }
